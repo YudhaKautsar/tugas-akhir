@@ -54,6 +54,7 @@ function buat_login() {
 
     const btnRegis = document.createElement("input");
     btnRegis.type = "submit";
+    btnRegis.value = "Daftar Sekarang".toUpperCase();
     btnRegis.className = "tombol_register";
     form.appendChild(btnRegis);
 
